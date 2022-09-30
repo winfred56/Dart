@@ -48,3 +48,11 @@ String encrypt(String message){
   }
   return encryptedText;
 }
+
+void main(){
+  /// Test 
+  print(encrypt('Hello World 123 &*'));
+  /// Reverse
+  print('');
+  print(encrypt('Hello World 123 &*'));
+}
