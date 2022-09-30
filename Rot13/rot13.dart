@@ -63,7 +63,7 @@ void main(){
 'The gate (G), the Source (S) and the drain (D).'));
 
 /// Reverse
-print('');
+print(' cfdxr');
 print(encrypt(encrypt('In normal operation, these pn junctions are kept reverse-biased at all times.' +
 'The two pn junctions (source-body and drain-body) are cut-off by connecting the body to the source.' + 
 'Thus the substrate (body) will be considered as having no effect on device operation and the Mosfet will be treated as a three-terminal device.' + 
