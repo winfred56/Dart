@@ -54,5 +54,5 @@ void main(){
   print(encrypt('Hello World 123 &*'));
   /// Reverse
   print('');
-  print(encrypt('Hello World 123 &*'));
+  print(encrypt(encrypt('Hello World 123 &*')));
 }
