@@ -36,7 +36,15 @@ String encrypt(String message){
         encryptedText += alphabetsU[indexOfLetter - 13];
       }
     }
-   
+    /// For spaces
+    else if(message[i] == " "){
+      encryptedText += ' ';
+    }
+    /// For numbers and other special characters like !@#$%^&*()-=_+{}|\[]:"";''?><,./`~
+    else{
+      encryptedText += message[i];
+    }
+    
   }
   return encryptedText;
 }
